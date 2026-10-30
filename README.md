@@ -8,7 +8,7 @@ The plugins and themes of the Starter Kit, their newest releases and what each n
 
 | Package | Composer | Type | Latest | Released |
 |---|---|---|---|---|
-| Platform Core | `devels/sk-platform-core` | core | `1.0.0-rc.15` | 2026-10-30 |
+| Platform Core | `devels/sk-platform-core` | core | `1.0.0-rc.16` | 2026-10-30 |
 | Activity log | `devels/sk-plugin-activity-log` | plugin | `1.0.0-rc.5` | 2026-10-30 |
 | AI assistant | `devels/sk-plugin-ai-assistant` | plugin | `1.0.0-rc.1` | 2026-10-30 |
 | AI content | `devels/sk-plugin-ai-content` | plugin | `1.0.0-rc.2` | 2026-10-28 |
@@ -22,7 +22,7 @@ The plugins and themes of the Starter Kit, their newest releases and what each n
 | Custom fields | `devels/sk-plugin-custom-fields` | plugin | `1.0.0-rc.5` | 2026-10-27 |
 | Custom post types | `devels/sk-plugin-custom-post-types` | plugin | `1.0.0-rc.7` | 2026-10-30 |
 | DeepL | `devels/sk-plugin-deepl` | plugin | `1.0.0-rc.2` | 2026-10-28 |
-| Developer tools | `devels/sk-plugin-dev-tools` | plugin | `1.0.0-rc.5` | 2026-10-30 |
+| Developer tools | `devels/sk-plugin-dev-tools` | plugin | `1.0.0-rc.6` | 2026-10-30 |
 | Email log | `devels/sk-plugin-email-log` | plugin | `1.0.0-rc.2` | 2026-10-30 |
 | FAQ | `devels/sk-plugin-faq` | plugin | `1.0.0-rc.5` | 2026-10-28 |
 | Geography | `devels/sk-plugin-geography` | plugin | `1.0.0-rc.3` | 2026-10-28 |
@@ -41,6 +41,6 @@ The plugins and themes of the Starter Kit, their newest releases and what each n
 | Testimonials | `devels/sk-plugin-testimonials` | plugin | `1.0.0-rc.3` | 2026-10-28 |
 | Users | `devels/sk-plugin-users` | plugin | `1.0.0-rc.4` | 2026-10-30 |
 | Selling points | `devels/sk-plugin-usp` | plugin | `1.0.0-rc.5` | 2026-10-28 |
-| Starter Kit | `devels/sk-starter-kit` | skeleton | `1.0.0-rc.15` | 2026-10-30 |
+| Starter Kit | `devels/sk-starter-kit` | skeleton | `1.0.0-rc.16` | 2026-10-30 |
 | Corporate | `devels/sk-theme-corporate` | theme | `1.0.0-rc.2` | 2026-10-23 |
 | Default | `devels/sk-theme-default` | theme | `1.0.0-rc.3` | 2026-10-27 |
