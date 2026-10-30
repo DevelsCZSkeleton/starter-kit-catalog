@@ -1,0 +1,1136 @@
+{
+    "schema": 1,
+    "generator": "tools/catalog.php",
+    "organization": "DevelsCZSkeleton",
+    "updated": "2026-10-30",
+    "preview": false,
+    "packages": [
+        {
+            "id": "core",
+            "type": "core",
+            "icon": null,
+            "name": {
+                "cs": "Platform Core",
+                "en": "Platform Core"
+            },
+            "description": {
+                "cs": "Jádro platformy: pluginy, šablony, administrace a jejich správa.",
+                "en": "The platform core: plugins, themes, the admin and their management."
+            },
+            "package": "devels/sk-platform-core",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-platform-core.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.15",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": null,
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-platform-core/blob/v1.0.0-rc.15/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "activity-log",
+            "type": "plugin",
+            "icon": "heroicon-o-clipboard-document-check",
+            "name": {
+                "cs": "Log aktivit",
+                "en": "Activity log"
+            },
+            "description": {
+                "cs": "Kdo co kdy změnil a kdy se zapnul který plugin.",
+                "en": "Who changed what and when, and when a plugin was switched on."
+            },
+            "package": "devels/sk-plugin-activity-log",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-activity-log.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.5",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.15",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-activity-log/blob/v1.0.0-rc.5/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "ai-assistant",
+            "type": "plugin",
+            "icon": "heroicon-o-chat-bubble-left-right",
+            "name": {
+                "cs": "AI asistent",
+                "en": "AI assistant"
+            },
+            "description": {
+                "cs": "Bob, asistent v administraci: odpovídá na otázky, hledá a mění záznamy nástroji AI webu a před každou změnou se zeptá.",
+                "en": "Bob, an assistant in the administration: answers questions, finds and changes records with the site's AI tools, and asks before anything changes."
+            },
+            "package": "devels/sk-plugin-ai-assistant",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-ai-assistant.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.1",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.15",
+                    "plugins": {
+                        "api": "^1.0"
+                    },
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-ai-assistant/blob/v1.0.0-rc.1/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "ai-content",
+            "type": "plugin",
+            "icon": "heroicon-o-cpu-chip",
+            "name": {
+                "cs": "AI obsah",
+                "en": "AI content"
+            },
+            "description": {
+                "cs": "Návrhy textu od AI na tlačítko u pole. Sám nic nezapíše.",
+                "en": "AI drafts behind a button on a field. It never writes on its own."
+            },
+            "package": "devels/sk-plugin-ai-content",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-ai-content.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.2",
+                "released": "2026-10-28",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.14",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-ai-content/blob/v1.0.0-rc.2/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "ai-providers",
+            "type": "plugin",
+            "icon": "heroicon-o-cpu-chip",
+            "name": {
+                "cs": "Poskytovatelé AI",
+                "en": "AI providers"
+            },
+            "description": {
+                "cs": "Připojí web k OpenAI, Anthropic Claude, Google Gemini a službám kompatibilním s OpenAI, pro pluginy, které s pomocí AI píší nebo kreslí.",
+                "en": "Connects the site to OpenAI, Anthropic Claude, Google Gemini and services compatible with OpenAI, for the plugins that write or draw with AI."
+            },
+            "package": "devels/sk-plugin-ai-providers",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-ai-providers.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.2",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.15",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-ai-providers/blob/v1.0.0-rc.2/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "announcements",
+            "type": "plugin",
+            "icon": "heroicon-o-megaphone",
+            "name": {
+                "cs": "Oznámení",
+                "en": "Announcements"
+            },
+            "description": {
+                "cs": "Krátké oznámení nahoře na webu, naplánované a v jazyce čtenáře.",
+                "en": "A short announcement at the top of the site, scheduled and in the reader's language."
+            },
+            "package": "devels/sk-plugin-announcements",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-announcements.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.4",
+                "released": "2026-10-28",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.4",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-announcements/blob/v1.0.0-rc.4/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "api",
+            "type": "plugin",
+            "icon": "heroicon-o-code-bracket",
+            "name": {
+                "cs": "API",
+                "en": "API"
+            },
+            "description": {
+                "cs": "REST API, které čte i zapisuje obsah, s tokeny nesoucími oprávnění a dokumentací podle toho, co je nainstalované.",
+                "en": "A REST API that reads and writes content, with permission-carrying tokens and documentation generated from what is installed."
+            },
+            "package": "devels/sk-plugin-api",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-api.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.5",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.15",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-api/blob/v1.0.0-rc.5/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "blog",
+            "type": "plugin",
+            "icon": "heroicon-o-newspaper",
+            "name": {
+                "cs": "Blog",
+                "en": "Blog"
+            },
+            "description": {
+                "cs": "Příspěvky a jejich archiv. S kategoriemi, SEO a dalšími pluginy, když jsou zapnuté.",
+                "en": "Posts and their archive. Works with categories, SEO and other plugins when they are on."
+            },
+            "package": "devels/sk-plugin-blog",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-blog.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.6",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.15",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-blog/blob/v1.0.0-rc.6/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "captcha",
+            "type": "plugin",
+            "icon": "heroicon-o-finger-print",
+            "name": {
+                "cs": "Captcha",
+                "en": "Captcha"
+            },
+            "description": {
+                "cs": "Ochrana formulářů webu před roboty přes Cloudflare Turnstile nebo hCaptcha.",
+                "en": "Protects the site's forms from bots with Cloudflare Turnstile or hCaptcha."
+            },
+            "package": "devels/sk-plugin-captcha",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-captcha.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.3",
+                "released": "2026-10-27",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-captcha/blob/v1.0.0-rc.3/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "contact-forms",
+            "type": "plugin",
+            "icon": "heroicon-o-inbox",
+            "name": {
+                "cs": "Kontaktní formuláře",
+                "en": "Contact forms"
+            },
+            "description": {
+                "cs": "Formuláře na webu. Odeslání se uloží, i když se nepodaří poslat upozornění.",
+                "en": "Forms on the site whose submissions are kept even when the notification fails."
+            },
+            "package": "devels/sk-plugin-contact-forms",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-contact-forms.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.5",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.15",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-contact-forms/blob/v1.0.0-rc.5/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "cookie-consent",
+            "type": "plugin",
+            "icon": "heroicon-o-shield-check",
+            "name": {
+                "cs": "Souhlas s cookies",
+                "en": "Cookie consent"
+            },
+            "description": {
+                "cs": "Lišta cookies, záznam souhlasů a skripty vypnuté, dokud návštěvník nesouhlasí.",
+                "en": "A cookie banner, a record of consent, and scripts kept off until a visitor agrees."
+            },
+            "package": "devels/sk-plugin-cookie-consent",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-cookie-consent.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.4",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.15",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-cookie-consent/blob/v1.0.0-rc.4/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "custom-fields",
+            "type": "plugin",
+            "icon": "heroicon-o-rectangle-stack",
+            "name": {
+                "cs": "Vlastní pole",
+                "en": "Custom fields"
+            },
+            "description": {
+                "cs": "Vlastní pole k libovolnému druhu záznamu.",
+                "en": "Custom fields for any kind of record."
+            },
+            "package": "devels/sk-plugin-custom-fields",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-custom-fields.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.5",
+                "released": "2026-10-27",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.4",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-custom-fields/blob/v1.0.0-rc.5/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "custom-post-types",
+            "type": "plugin",
+            "icon": "heroicon-o-squares-2x2",
+            "name": {
+                "cs": "Vlastní typy příspěvků",
+                "en": "Custom post types"
+            },
+            "description": {
+                "cs": "Druhy obsahu definované v administraci, každý s vlastními poli.",
+                "en": "Content types defined in the admin, each with its own fields."
+            },
+            "package": "devels/sk-plugin-custom-post-types",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-custom-post-types.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.7",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.4",
+                    "plugins": {
+                        "custom-fields": "^1.0"
+                    },
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-custom-post-types/blob/v1.0.0-rc.7/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "deepl",
+            "type": "plugin",
+            "icon": "heroicon-o-language",
+            "name": {
+                "cs": "DeepL",
+                "en": "DeepL"
+            },
+            "description": {
+                "cs": "Strojový překlad přes DeepL pro tlačítka překladu u každého pole psaného v několika jazycích.",
+                "en": "Machine translation through DeepL, for the translate buttons on every field written in several languages."
+            },
+            "package": "devels/sk-plugin-deepl",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-deepl.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.2",
+                "released": "2026-10-28",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.14",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-deepl/blob/v1.0.0-rc.2/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "dev-tools",
+            "type": "plugin",
+            "icon": "heroicon-o-wrench-screwdriver",
+            "name": {
+                "cs": "Nástroje pro vývojáře",
+                "en": "Developer tools"
+            },
+            "description": {
+                "cs": "Informace o projektu a changelogy v administraci, jen na počítači vývojáře.",
+                "en": "Project information and changelogs in the admin, on a developer's machine only."
+            },
+            "package": "devels/sk-plugin-dev-tools",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-dev-tools.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.5",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.12",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-dev-tools/blob/v1.0.0-rc.5/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "email-log",
+            "type": "plugin",
+            "icon": "heroicon-o-envelope",
+            "name": {
+                "cs": "Log e-mailů",
+                "en": "Email log"
+            },
+            "description": {
+                "cs": "Záznam každé zprávy, kterou web poslal, i té, kterou poslat nedokázal.",
+                "en": "A record of every message the site sent, and every one it could not."
+            },
+            "package": "devels/sk-plugin-email-log",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-email-log.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.2",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.15",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-email-log/blob/v1.0.0-rc.2/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "faq",
+            "type": "plugin",
+            "icon": "heroicon-o-question-mark-circle",
+            "name": {
+                "cs": "Časté dotazy",
+                "en": "FAQ"
+            },
+            "description": {
+                "cs": "Otázky, na které se lidé ptají dost často, aby je stálo za to sepsat. S blokem do editoru.",
+                "en": "Questions people ask often enough to write down, with an editor block."
+            },
+            "package": "devels/sk-plugin-faq",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-faq.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.5",
+                "released": "2026-10-28",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-faq/blob/v1.0.0-rc.5/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "geography",
+            "type": "plugin",
+            "icon": "heroicon-o-globe-europe-africa",
+            "name": {
+                "cs": "Geografie",
+                "en": "Geography"
+            },
+            "description": {
+                "cs": "Země, měny a poštovní adresy jako číselníky, na kterých stavějí další pluginy.",
+                "en": "Countries, currencies and postal addresses as reference data other plugins build on."
+            },
+            "package": "devels/sk-plugin-geography",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-geography.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.3",
+                "released": "2026-10-28",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-geography/blob/v1.0.0-rc.3/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "mcp-server",
+            "type": "plugin",
+            "icon": "heroicon-o-link",
+            "name": {
+                "cs": "MCP server",
+                "en": "MCP server"
+            },
+            "description": {
+                "cs": "AI klienti jako Claude nebo ChatGPT používají nástroje webu jako člověk, který je připojil, přihlášení přes OAuth nebo osobní token.",
+                "en": "AI clients such as Claude or ChatGPT use the site's tools as the person who connected them, signed in through OAuth or a personal token."
+            },
+            "package": "devels/sk-plugin-mcp-server",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-mcp-server.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.1",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.15",
+                    "plugins": {
+                        "api": "^1.0"
+                    },
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-mcp-server/blob/v1.0.0-rc.1/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "media-manager",
+            "type": "plugin",
+            "icon": "heroicon-o-photo",
+            "name": {
+                "cs": "Knihovna médií",
+                "en": "Media library"
+            },
+            "description": {
+                "cs": "Knihovna nahraných souborů a zmenšenin obrázků, o které si říkají obsahové pluginy.",
+                "en": "A library of uploads and the image conversions content plugins ask for."
+            },
+            "package": "devels/sk-plugin-media-manager",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-media-manager.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.6",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.15",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-media-manager/blob/v1.0.0-rc.6/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "navigation",
+            "type": "plugin",
+            "icon": "heroicon-o-bars-3",
+            "name": {
+                "cs": "Menu",
+                "en": "Menus"
+            },
+            "description": {
+                "cs": "Menu webu s odkazy na obsah ostatních pluginů.",
+                "en": "The site's menus, linking to content from other plugins."
+            },
+            "package": "devels/sk-plugin-navigation",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-navigation.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.5",
+                "released": "2026-10-28",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.4",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-navigation/blob/v1.0.0-rc.5/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "newsletter",
+            "type": "plugin",
+            "icon": "heroicon-o-at-symbol",
+            "name": {
+                "cs": "Newsletter",
+                "en": "Newsletter"
+            },
+            "description": {
+                "cs": "Přihlášky k newsletteru s dvojím potvrzením a odhlášením jedním kliknutím.",
+                "en": "Newsletter sign-ups with double opt-in and one-click unsubscribe."
+            },
+            "package": "devels/sk-plugin-newsletter",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-newsletter.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.4",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.15",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-newsletter/blob/v1.0.0-rc.4/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "pages",
+            "type": "plugin",
+            "icon": "heroicon-o-document-text",
+            "name": {
+                "cs": "Stránky",
+                "en": "Pages"
+            },
+            "description": {
+                "cs": "Samostatné stránky webu. S SEO, menu a přesměrováním, když jsou zapnuté.",
+                "en": "Standalone pages of the site. With SEO, menus and redirects when they are on."
+            },
+            "package": "devels/sk-plugin-pages",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-pages.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.5",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-pages/blob/v1.0.0-rc.5/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "redirects",
+            "type": "plugin",
+            "icon": "heroicon-o-arrows-right-left",
+            "name": {
+                "cs": "Přesměrování",
+                "en": "Redirects"
+            },
+            "description": {
+                "cs": "Ruční přesměrování a automatická, když se obsah přesune.",
+                "en": "Manual redirects, and automatic ones when content moves."
+            },
+            "package": "devels/sk-plugin-redirects",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-redirects.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.2",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.15",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-redirects/blob/v1.0.0-rc.2/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "rich-content",
+            "type": "plugin",
+            "icon": "heroicon-o-squares-plus",
+            "name": {
+                "cs": "Bloky obsahu",
+                "en": "Content blocks"
+            },
+            "description": {
+                "cs": "Bloky do editoru, které může přidat kterýkoli balíček a přestylovat kterákoli šablona.",
+                "en": "Editor blocks any package can add and any theme can restyle."
+            },
+            "package": "devels/sk-plugin-rich-content",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-rich-content.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.6",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.14",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-rich-content/blob/v1.0.0-rc.6/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "search",
+            "type": "plugin",
+            "icon": "heroicon-o-magnifying-glass",
+            "name": {
+                "cs": "Vyhledávání",
+                "en": "Search"
+            },
+            "description": {
+                "cs": "Vyhledávání na webu napříč obsahem zapnutých pluginů.",
+                "en": "Site search across the content of the plugins that are on."
+            },
+            "package": "devels/sk-plugin-search",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-search.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.3",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.15",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-search/blob/v1.0.0-rc.3/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "seo",
+            "type": "plugin",
+            "icon": "heroicon-o-globe-alt",
+            "name": {
+                "cs": "SEO",
+                "en": "SEO"
+            },
+            "description": {
+                "cs": "Meta značky, sitemap, robots.txt a llms.txt s adresami od obsahových pluginů.",
+                "en": "Meta tags, sitemap, robots.txt and llms.txt, with URLs from content plugins."
+            },
+            "package": "devels/sk-plugin-seo",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-seo.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.5",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.15",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-seo/blob/v1.0.0-rc.5/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "shop",
+            "type": "plugin",
+            "icon": "heroicon-o-shopping-bag",
+            "name": {
+                "cs": "E-shop",
+                "en": "Shop"
+            },
+            "description": {
+                "cs": "Produkty, objednávky a výpočet cen, který si projekt může rozšířit.",
+                "en": "Products, orders and a pricing pipeline a project can extend."
+            },
+            "package": "devels/sk-plugin-shop",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-shop.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.8",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.15",
+                    "plugins": {
+                        "geography": "^1.0",
+                        "taxonomy": "^1.0"
+                    },
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-shop/blob/v1.0.0-rc.8/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "taxonomy",
+            "type": "plugin",
+            "icon": "heroicon-o-tag",
+            "name": {
+                "cs": "Kategorie a štítky",
+                "en": "Categories and tags"
+            },
+            "description": {
+                "cs": "Jedna hierarchie kategorií a jedna sada štítků pro všechen obsah.",
+                "en": "One hierarchy of categories and one set of tags, shared by all content."
+            },
+            "package": "devels/sk-plugin-taxonomy",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-taxonomy.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.4",
+                "released": "2026-10-28",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-taxonomy/blob/v1.0.0-rc.4/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "team",
+            "type": "plugin",
+            "icon": "heroicon-o-user-group",
+            "name": {
+                "cs": "Tým",
+                "en": "Team"
+            },
+            "description": {
+                "cs": "Lidé za webem, s blokem do editoru.",
+                "en": "The people behind the site, with an editor block."
+            },
+            "package": "devels/sk-plugin-team",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-team.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.3",
+                "released": "2026-10-28",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-team/blob/v1.0.0-rc.3/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "testimonials",
+            "type": "plugin",
+            "icon": "heroicon-o-chat-bubble-left-right",
+            "name": {
+                "cs": "Reference",
+                "en": "Testimonials"
+            },
+            "description": {
+                "cs": "Slova klientů, s blokem do editoru.",
+                "en": "Clients' words, with an editor block."
+            },
+            "package": "devels/sk-plugin-testimonials",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-testimonials.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.3",
+                "released": "2026-10-28",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-testimonials/blob/v1.0.0-rc.3/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "users",
+            "type": "plugin",
+            "icon": "heroicon-o-users",
+            "name": {
+                "cs": "Uživatelé",
+                "en": "Users"
+            },
+            "description": {
+                "cs": "Uživatelé, role a oprávnění: správa přístupu, kterou platforma záměrně nechává pluginu.",
+                "en": "Users, roles and grants: the access control the platform leaves to a plugin."
+            },
+            "package": "devels/sk-plugin-users",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-users.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.4",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.15",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-users/blob/v1.0.0-rc.4/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "usp",
+            "type": "plugin",
+            "icon": "heroicon-o-sparkles",
+            "name": {
+                "cs": "Výhody",
+                "en": "Selling points"
+            },
+            "description": {
+                "cs": "Tři nebo čtyři důvody, proč si vybrat právě vás.",
+                "en": "The three or four reasons to choose you."
+            },
+            "package": "devels/sk-plugin-usp",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-usp.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.5",
+                "released": "2026-10-28",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.4",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-usp/blob/v1.0.0-rc.5/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "starter-kit",
+            "type": "skeleton",
+            "icon": null,
+            "name": {
+                "cs": "Starter Kit",
+                "en": "Starter Kit"
+            },
+            "description": {
+                "cs": "Aplikace, ze které vzniká klientský projekt přes composer create-project.",
+                "en": "The application a client project is created from with composer create-project."
+            },
+            "package": "devels/sk-starter-kit",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-starter-kit.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.15",
+                "released": "2026-10-30",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.15",
+                    "plugins": {
+                        "activity-log": "^1.0.0-rc.5",
+                        "ai-assistant": "^1.0",
+                        "ai-content": "^1.0.0-rc.2",
+                        "ai-providers": "^1.0.0-rc.2",
+                        "announcements": "^1.0.0-rc.4",
+                        "api": "^1.0.0-rc.5",
+                        "blog": "^1.0.0-rc.6",
+                        "captcha": "^1.0.0-rc.3",
+                        "contact-forms": "^1.0.0-rc.5",
+                        "cookie-consent": "^1.0.0-rc.4",
+                        "custom-fields": "^1.0.0-rc.5",
+                        "custom-post-types": "^1.0.0-rc.7",
+                        "deepl": "^1.0.0-rc.2",
+                        "dev-tools": "^1.0.0-rc.5",
+                        "email-log": "^1.0.0-rc.2",
+                        "faq": "^1.0.0-rc.5",
+                        "geography": "^1.0.0-rc.3",
+                        "mcp-server": "^1.0",
+                        "media-manager": "^1.0.0-rc.6",
+                        "navigation": "^1.0.0-rc.5",
+                        "newsletter": "^1.0.0-rc.4",
+                        "pages": "^1.0.0-rc.5",
+                        "redirects": "^1.0.0-rc.2",
+                        "rich-content": "^1.0.0-rc.6",
+                        "search": "^1.0.0-rc.3",
+                        "seo": "^1.0.0-rc.5",
+                        "shop": "^1.0.0-rc.8",
+                        "taxonomy": "^1.0.0-rc.4",
+                        "team": "^1.0.0-rc.3",
+                        "testimonials": "^1.0.0-rc.3",
+                        "users": "^1.0.0-rc.4",
+                        "usp": "^1.0.0-rc.5"
+                    },
+                    "themes": {
+                        "corporate": "^1.0.0-rc.2",
+                        "default": "^1.0.0-rc.3"
+                    }
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-starter-kit/blob/v1.0.0-rc.15/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "corporate",
+            "type": "theme",
+            "icon": null,
+            "name": {
+                "cs": "Firemní",
+                "en": "Corporate"
+            },
+            "description": {
+                "cs": "Reprezentativní vzhled pro firemní prezentaci, postavený na výchozí šabloně.",
+                "en": "A representative look for a company presentation, built on the default theme."
+            },
+            "package": "devels/sk-theme-corporate",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-theme-corporate.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.2",
+                "released": "2026-10-23",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0",
+                    "plugins": {},
+                    "themes": {
+                        "default": "^1.0"
+                    }
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-theme-corporate/blob/v1.0.0-rc.2/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "default",
+            "type": "theme",
+            "icon": null,
+            "name": {
+                "cs": "Výchozí",
+                "en": "Default"
+            },
+            "description": {
+                "cs": "Čistý a střídmý vzhled webu, ze kterého vycházejí ostatní šablony. Má styly pro všechny pluginy kitu.",
+                "en": "A clean, restrained look for the site that other themes build on. It styles every plugin in the kit."
+            },
+            "package": "devels/sk-theme-default",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-theme-default.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.3",
+                "released": "2026-10-27",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-theme-default/blob/v1.0.0-rc.3/CHANGELOG.md"
+            },
+            "stable": null
+        }
+    ]
+}
