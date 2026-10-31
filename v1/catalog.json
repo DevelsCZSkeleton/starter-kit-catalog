@@ -2,7 +2,7 @@
     "schema": 1,
     "generator": "tools/catalog.php",
     "organization": "DevelsCZSkeleton",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "preview": false,
     "packages": [
         {
@@ -23,15 +23,15 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-platform-core.git"
             },
             "latest": {
-                "version": "1.0.0-rc.16",
-                "released": "2026-10-30",
+                "version": "1.0.0-rc.17",
+                "released": "2026-10-31",
                 "requires": {
                     "php": "^8.4",
                     "core": null,
                     "plugins": {},
                     "themes": {}
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-platform-core/blob/v1.0.0-rc.16/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-platform-core/blob/v1.0.0-rc.17/CHANGELOG.md"
             },
             "stable": null
         },
@@ -447,15 +447,15 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-plugin-dev-tools.git"
             },
             "latest": {
-                "version": "1.0.0-rc.6",
-                "released": "2026-10-30",
+                "version": "1.0.0-rc.7",
+                "released": "2026-10-31",
                 "requires": {
                     "php": "^8.4",
-                    "core": "^1.0.0-rc.16",
+                    "core": "^1.0.0-rc.17",
                     "plugins": {},
                     "themes": {}
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-dev-tools/blob/v1.0.0-rc.6/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-dev-tools/blob/v1.0.0-rc.7/CHANGELOG.md"
             },
             "stable": null
         },
@@ -1022,51 +1022,19 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-starter-kit.git"
             },
             "latest": {
-                "version": "1.0.0-rc.16",
-                "released": "2026-10-30",
+                "version": "1.0.0-rc.17",
+                "released": "2026-10-31",
                 "requires": {
                     "php": "^8.4",
-                    "core": "^1.0.0-rc.16",
+                    "core": "^1.0.0-rc.17",
                     "plugins": {
-                        "activity-log": "^1.0.0-rc.5",
-                        "ai-assistant": "^1.0",
-                        "ai-content": "^1.0.0-rc.2",
-                        "ai-providers": "^1.0.0-rc.2",
-                        "announcements": "^1.0.0-rc.4",
-                        "api": "^1.0.0-rc.5",
-                        "blog": "^1.0.0-rc.6",
-                        "captcha": "^1.0.0-rc.3",
-                        "contact-forms": "^1.0.0-rc.5",
-                        "cookie-consent": "^1.0.0-rc.4",
-                        "custom-fields": "^1.0.0-rc.5",
-                        "custom-post-types": "^1.0.0-rc.7",
-                        "deepl": "^1.0.0-rc.2",
-                        "dev-tools": "^1.0.0-rc.6",
-                        "email-log": "^1.0.0-rc.2",
-                        "faq": "^1.0.0-rc.5",
-                        "geography": "^1.0.0-rc.3",
-                        "mcp-server": "^1.0",
-                        "media-manager": "^1.0.0-rc.6",
-                        "navigation": "^1.0.0-rc.5",
-                        "newsletter": "^1.0.0-rc.4",
-                        "pages": "^1.0.0-rc.5",
-                        "redirects": "^1.0.0-rc.2",
-                        "rich-content": "^1.0.0-rc.6",
-                        "search": "^1.0.0-rc.3",
-                        "seo": "^1.0.0-rc.5",
-                        "shop": "^1.0.0-rc.8",
-                        "taxonomy": "^1.0.0-rc.4",
-                        "team": "^1.0.0-rc.3",
-                        "testimonials": "^1.0.0-rc.3",
-                        "users": "^1.0.0-rc.4",
-                        "usp": "^1.0.0-rc.5"
+                        "users": "^1.0.0-rc.4"
                     },
                     "themes": {
-                        "corporate": "^1.0.0-rc.2",
                         "default": "^1.0.0-rc.3"
                     }
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-starter-kit/blob/v1.0.0-rc.16/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-starter-kit/blob/v1.0.0-rc.17/CHANGELOG.md"
             },
             "stable": null
         },
