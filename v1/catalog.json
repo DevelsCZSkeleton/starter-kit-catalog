@@ -23,7 +23,7 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-platform-core.git"
             },
             "latest": {
-                "version": "1.0.0-rc.18",
+                "version": "1.0.0-rc.19",
                 "released": "2026-11-19",
                 "requires": {
                     "php": "^8.4",
@@ -31,7 +31,7 @@
                     "plugins": {},
                     "themes": {}
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-platform-core/blob/v1.0.0-rc.18/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-platform-core/blob/v1.0.0-rc.19/CHANGELOG.md"
             },
             "stable": null
         },
@@ -1210,11 +1210,11 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-starter-kit.git"
             },
             "latest": {
-                "version": "1.0.0-rc.18",
+                "version": "1.0.0-rc.19",
                 "released": "2026-11-19",
                 "requires": {
                     "php": "^8.4",
-                    "core": "^1.0.0-rc.18",
+                    "core": "^1.0.0-rc.19",
                     "plugins": {
                         "users": "^1.0.0-rc.5"
                     },
@@ -1222,7 +1222,7 @@
                         "default": "^1.0.0-rc.4"
                     }
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-starter-kit/blob/v1.0.0-rc.18/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-starter-kit/blob/v1.0.0-rc.19/CHANGELOG.md"
             },
             "stable": null
         },

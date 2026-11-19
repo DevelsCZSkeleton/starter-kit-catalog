@@ -8,7 +8,7 @@ The plugins and themes of the Starter Kit, their newest releases and what each n
 
 | Package | Composer | Type | Latest | Released |
 |---|---|---|---|---|
-| Platform Core | `devels/sk-platform-core` | core | `1.0.0-rc.18` | 2026-11-19 |
+| Platform Core | `devels/sk-platform-core` | core | `1.0.0-rc.19` | 2026-11-19 |
 | Activity log | `devels/sk-plugin-activity-log` | plugin | `1.0.0-rc.5` | 2026-10-30 |
 | Advertising | `devels/sk-plugin-ads` | plugin | `1.0.0-rc.1` | 2026-11-19 |
 | AI assistant | `devels/sk-plugin-ai-assistant` | plugin | `1.0.0-rc.1` | 2026-10-30 |
@@ -47,6 +47,6 @@ The plugins and themes of the Starter Kit, their newest releases and what each n
 | Testimonials | `devels/sk-plugin-testimonials` | plugin | `1.0.0-rc.3` | 2026-10-28 |
 | Users | `devels/sk-plugin-users` | plugin | `1.0.0-rc.5` | 2026-11-19 |
 | Selling points | `devels/sk-plugin-usp` | plugin | `1.0.0-rc.5` | 2026-10-28 |
-| Starter Kit | `devels/sk-starter-kit` | skeleton | `1.0.0-rc.18` | 2026-11-19 |
+| Starter Kit | `devels/sk-starter-kit` | skeleton | `1.0.0-rc.19` | 2026-11-19 |
 | Corporate | `devels/sk-theme-corporate` | theme | `1.0.0-rc.2` | 2026-10-23 |
 | Default | `devels/sk-theme-default` | theme | `1.0.0-rc.4` | 2026-11-19 |
