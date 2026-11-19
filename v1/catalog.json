@@ -2,7 +2,7 @@
     "schema": 1,
     "generator": "tools/catalog.php",
     "organization": "DevelsCZSkeleton",
-    "updated": "2026-10-31",
+    "updated": "2026-11-19",
     "preview": false,
     "packages": [
         {
@@ -23,15 +23,15 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-platform-core.git"
             },
             "latest": {
-                "version": "1.0.0-rc.17",
-                "released": "2026-10-31",
+                "version": "1.0.0-rc.18",
+                "released": "2026-11-19",
                 "requires": {
                     "php": "^8.4",
                     "core": null,
                     "plugins": {},
                     "themes": {}
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-platform-core/blob/v1.0.0-rc.17/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-platform-core/blob/v1.0.0-rc.18/CHANGELOG.md"
             },
             "stable": null
         },
@@ -62,6 +62,38 @@
                     "themes": {}
                 },
                 "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-activity-log/blob/v1.0.0-rc.5/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "ads",
+            "type": "plugin",
+            "icon": "heroicon-o-megaphone",
+            "name": {
+                "cs": "Reklama",
+                "en": "Advertising"
+            },
+            "description": {
+                "cs": "Data z Google Ads, Skliku a Mety: noční synchronizace, reporty nad lokální databází a ověřené zápisy stavu a rozpočtu.",
+                "en": "Data from Google Ads, Sklik and Meta: a nightly sync, reports from the local database and checked status and budget writes."
+            },
+            "package": "devels/sk-plugin-ads",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-ads.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.1",
+                "released": "2026-11-19",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.18",
+                    "plugins": {
+                        "connected-accounts": "^1.0"
+                    },
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-ads/blob/v1.0.0-rc.1/CHANGELOG.md"
             },
             "stable": null
         },
@@ -145,15 +177,15 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-plugin-ai-providers.git"
             },
             "latest": {
-                "version": "1.0.0-rc.2",
-                "released": "2026-10-30",
+                "version": "1.0.0-rc.3",
+                "released": "2026-11-19",
                 "requires": {
                     "php": "^8.4",
-                    "core": "^1.0.0-rc.15",
+                    "core": "^1.0.0-rc.18",
                     "plugins": {},
                     "themes": {}
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-ai-providers/blob/v1.0.0-rc.2/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-ai-providers/blob/v1.0.0-rc.3/CHANGELOG.md"
             },
             "stable": null
         },
@@ -274,6 +306,36 @@
                     "themes": {}
                 },
                 "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-captcha/blob/v1.0.0-rc.3/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "connected-accounts",
+            "type": "plugin",
+            "icon": "heroicon-o-link",
+            "name": {
+                "cs": "Připojené účty",
+                "en": "Connected accounts"
+            },
+            "description": {
+                "cs": "Vnější služby — Google, reklamní sítě, projektové nástroje — připojené každým člověkem nebo týmem, s přístupy uloženými šifrovaně a denně kontrolovanými.",
+                "en": "Outside services — Google, advertising networks, project tools — connected by each person or team, with their credentials kept encrypted and checked every day."
+            },
+            "package": "devels/sk-plugin-connected-accounts",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-connected-accounts.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.1",
+                "released": "2026-11-19",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.18",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-connected-accounts/blob/v1.0.0-rc.1/CHANGELOG.md"
             },
             "stable": null
         },
@@ -550,6 +612,38 @@
             "stable": null
         },
         {
+            "id": "google",
+            "type": "plugin",
+            "icon": "heroicon-o-globe-alt",
+            "name": {
+                "cs": "Google",
+                "en": "Google"
+            },
+            "description": {
+                "cs": "Google jako služba k připojení: udělení přístupu u přihlášení Googlu, pro oprávnění, o která žádají pluginy čtoucí služby Googlu.",
+                "en": "Google as a service to connect: a grant at Google's own sign-in, for the scopes the plugins reading Google products ask for."
+            },
+            "package": "devels/sk-plugin-google",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-google.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.1",
+                "released": "2026-11-19",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.18",
+                    "plugins": {
+                        "connected-accounts": "^1.0"
+                    },
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-google/blob/v1.0.0-rc.1/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
             "id": "mcp-server",
             "type": "plugin",
             "icon": "heroicon-o-link",
@@ -567,17 +661,17 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-plugin-mcp-server.git"
             },
             "latest": {
-                "version": "1.0.0-rc.1",
-                "released": "2026-10-30",
+                "version": "1.0.0-rc.2",
+                "released": "2026-11-19",
                 "requires": {
                     "php": "^8.4",
-                    "core": "^1.0.0-rc.15",
+                    "core": "^1.0.0-rc.18",
                     "plugins": {
                         "api": "^1.0"
                     },
                     "themes": {}
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-mcp-server/blob/v1.0.0-rc.1/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-mcp-server/blob/v1.0.0-rc.2/CHANGELOG.md"
             },
             "stable": null
         },
@@ -698,6 +792,38 @@
                     "themes": {}
                 },
                 "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-pages/blob/v1.0.0-rc.5/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "project-tools",
+            "type": "plugin",
+            "icon": "heroicon-o-clipboard-document-check",
+            "name": {
+                "cs": "Projektové nástroje",
+                "en": "Project tools"
+            },
+            "description": {
+                "cs": "Nástěnky z Freela a ClickUpu: úkoly a komentáře synchronizované každou noc, zakládání, úpravy a komentáře úkolů přes ověřený zápis.",
+                "en": "Freelo and ClickUp boards: their tasks and comments synced every night, and tasks created, edited and commented on through a checked write."
+            },
+            "package": "devels/sk-plugin-project-tools",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-project-tools.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.1",
+                "released": "2026-11-19",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.18",
+                    "plugins": {
+                        "connected-accounts": "^1.0"
+                    },
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-project-tools/blob/v1.0.0-rc.1/CHANGELOG.md"
             },
             "stable": null
         },
@@ -855,6 +981,68 @@
             "stable": null
         },
         {
+            "id": "site-inspection",
+            "type": "plugin",
+            "icon": "heroicon-o-magnifying-glass-circle",
+            "name": {
+                "cs": "Kontrola webu",
+                "en": "Site inspection"
+            },
+            "description": {
+                "cs": "Prohlédne veřejný web zvenku: jeho stránky, rychlost a přístupnost změřené Lighthousem, záznamy domény a e-mailu, nástroje, které načítá, a subdomény z jeho certifikátů.",
+                "en": "Inspects a public website from the outside: its pages, speed and accessibility measured by Lighthouse, its domain and e-mail records, the tools it loads and the subdomains its certificates name."
+            },
+            "package": "devels/sk-plugin-site-inspection",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-site-inspection.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.1",
+                "released": "2026-11-19",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.18",
+                    "plugins": {},
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-site-inspection/blob/v1.0.0-rc.1/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
+            "id": "site-stats",
+            "type": "plugin",
+            "icon": "heroicon-o-chart-bar-square",
+            "name": {
+                "cs": "Statistiky webu",
+                "en": "Site statistics"
+            },
+            "description": {
+                "cs": "Google Search Console, Google Analytics 4 a Cloudflare: noční synchronizace každé služby a přehledy z lokální databáze.",
+                "en": "Google Search Console, Google Analytics 4 and Cloudflare: a nightly sync of each property, reports from the local database."
+            },
+            "package": "devels/sk-plugin-site-stats",
+            "repository": {
+                "type": "vcs",
+                "url": "git@github.com:DevelsCZSkeleton/sk-plugin-site-stats.git"
+            },
+            "latest": {
+                "version": "1.0.0-rc.1",
+                "released": "2026-11-19",
+                "requires": {
+                    "php": "^8.4",
+                    "core": "^1.0.0-rc.18",
+                    "plugins": {
+                        "connected-accounts": "^1.0"
+                    },
+                    "themes": {}
+                },
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-site-stats/blob/v1.0.0-rc.1/CHANGELOG.md"
+            },
+            "stable": null
+        },
+        {
             "id": "taxonomy",
             "type": "plugin",
             "icon": "heroicon-o-tag",
@@ -962,15 +1150,15 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-plugin-users.git"
             },
             "latest": {
-                "version": "1.0.0-rc.4",
-                "released": "2026-10-30",
+                "version": "1.0.0-rc.5",
+                "released": "2026-11-19",
                 "requires": {
                     "php": "^8.4",
-                    "core": "^1.0.0-rc.15",
+                    "core": "^1.0.0-rc.18",
                     "plugins": {},
                     "themes": {}
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-users/blob/v1.0.0-rc.4/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-users/blob/v1.0.0-rc.5/CHANGELOG.md"
             },
             "stable": null
         },
@@ -1022,19 +1210,19 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-starter-kit.git"
             },
             "latest": {
-                "version": "1.0.0-rc.17",
-                "released": "2026-10-31",
+                "version": "1.0.0-rc.18",
+                "released": "2026-11-19",
                 "requires": {
                     "php": "^8.4",
-                    "core": "^1.0.0-rc.17",
+                    "core": "^1.0.0-rc.18",
                     "plugins": {
-                        "users": "^1.0.0-rc.4"
+                        "users": "^1.0.0-rc.5"
                     },
                     "themes": {
-                        "default": "^1.0.0-rc.3"
+                        "default": "^1.0.0-rc.4"
                     }
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-starter-kit/blob/v1.0.0-rc.17/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-starter-kit/blob/v1.0.0-rc.18/CHANGELOG.md"
             },
             "stable": null
         },
@@ -1088,15 +1276,15 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-theme-default.git"
             },
             "latest": {
-                "version": "1.0.0-rc.3",
-                "released": "2026-10-27",
+                "version": "1.0.0-rc.4",
+                "released": "2026-11-19",
                 "requires": {
                     "php": "^8.4",
                     "core": "^1.0",
                     "plugins": {},
                     "themes": {}
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-theme-default/blob/v1.0.0-rc.3/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-theme-default/blob/v1.0.0-rc.4/CHANGELOG.md"
             },
             "stable": null
         }
