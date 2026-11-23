@@ -10,7 +10,7 @@ The plugins and themes of the Starter Kit, their newest releases and what each n
 |---|---|---|---|---|
 | Platform Core | `devels/sk-platform-core` | core | `1.0.0-rc.19` | 2026-11-19 |
 | Activity log | `devels/sk-plugin-activity-log` | plugin | `1.0.0-rc.5` | 2026-10-30 |
-| Advertising | `devels/sk-plugin-ads` | plugin | `1.0.0-rc.1` | 2026-11-19 |
+| Advertising | `devels/sk-plugin-ads` | plugin | `1.0.0-rc.2` | 2026-11-23 |
 | AI assistant | `devels/sk-plugin-ai-assistant` | plugin | `1.0.0-rc.1` | 2026-10-30 |
 | AI content | `devels/sk-plugin-ai-content` | plugin | `1.0.0-rc.2` | 2026-10-28 |
 | AI providers | `devels/sk-plugin-ai-providers` | plugin | `1.0.0-rc.3` | 2026-11-19 |
@@ -18,7 +18,7 @@ The plugins and themes of the Starter Kit, their newest releases and what each n
 | API | `devels/sk-plugin-api` | plugin | `1.0.0-rc.5` | 2026-10-30 |
 | Blog | `devels/sk-plugin-blog` | plugin | `1.0.0-rc.6` | 2026-10-30 |
 | Captcha | `devels/sk-plugin-captcha` | plugin | `1.0.0-rc.3` | 2026-10-27 |
-| Connected accounts | `devels/sk-plugin-connected-accounts` | plugin | `1.0.0-rc.1` | 2026-11-19 |
+| Connected accounts | `devels/sk-plugin-connected-accounts` | plugin | `1.0.0-rc.2` | 2026-11-23 |
 | Contact forms | `devels/sk-plugin-contact-forms` | plugin | `1.0.0-rc.5` | 2026-10-30 |
 | Cookie consent | `devels/sk-plugin-cookie-consent` | plugin | `1.0.0-rc.4` | 2026-10-30 |
 | Custom fields | `devels/sk-plugin-custom-fields` | plugin | `1.0.0-rc.5` | 2026-10-27 |
@@ -28,20 +28,20 @@ The plugins and themes of the Starter Kit, their newest releases and what each n
 | Email log | `devels/sk-plugin-email-log` | plugin | `1.0.0-rc.2` | 2026-10-30 |
 | FAQ | `devels/sk-plugin-faq` | plugin | `1.0.0-rc.5` | 2026-10-28 |
 | Geography | `devels/sk-plugin-geography` | plugin | `1.0.0-rc.3` | 2026-10-28 |
-| Google | `devels/sk-plugin-google` | plugin | `1.0.0-rc.1` | 2026-11-19 |
+| Google | `devels/sk-plugin-google` | plugin | `1.0.0-rc.2` | 2026-11-23 |
 | MCP server | `devels/sk-plugin-mcp-server` | plugin | `1.0.0-rc.2` | 2026-11-19 |
 | Media library | `devels/sk-plugin-media-manager` | plugin | `1.0.0-rc.6` | 2026-10-30 |
 | Menus | `devels/sk-plugin-navigation` | plugin | `1.0.0-rc.5` | 2026-10-28 |
 | Newsletter | `devels/sk-plugin-newsletter` | plugin | `1.0.0-rc.4` | 2026-10-30 |
 | Pages | `devels/sk-plugin-pages` | plugin | `1.0.0-rc.5` | 2026-10-30 |
-| Project tools | `devels/sk-plugin-project-tools` | plugin | `1.0.0-rc.1` | 2026-11-19 |
+| Project tools | `devels/sk-plugin-project-tools` | plugin | `1.0.0-rc.2` | 2026-11-23 |
 | Redirects | `devels/sk-plugin-redirects` | plugin | `1.0.0-rc.2` | 2026-10-30 |
 | Content blocks | `devels/sk-plugin-rich-content` | plugin | `1.0.0-rc.6` | 2026-10-30 |
 | Search | `devels/sk-plugin-search` | plugin | `1.0.0-rc.3` | 2026-10-30 |
 | SEO | `devels/sk-plugin-seo` | plugin | `1.0.0-rc.5` | 2026-10-30 |
 | Shop | `devels/sk-plugin-shop` | plugin | `1.0.0-rc.8` | 2026-10-30 |
 | Site inspection | `devels/sk-plugin-site-inspection` | plugin | `1.0.0-rc.1` | 2026-11-19 |
-| Site statistics | `devels/sk-plugin-site-stats` | plugin | `1.0.0-rc.1` | 2026-11-19 |
+| Site statistics | `devels/sk-plugin-site-stats` | plugin | `1.0.0-rc.2` | 2026-11-23 |
 | Categories and tags | `devels/sk-plugin-taxonomy` | plugin | `1.0.0-rc.4` | 2026-10-28 |
 | Team | `devels/sk-plugin-team` | plugin | `1.0.0-rc.3` | 2026-10-28 |
 | Testimonials | `devels/sk-plugin-testimonials` | plugin | `1.0.0-rc.3` | 2026-10-28 |
