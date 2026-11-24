@@ -2,7 +2,7 @@
     "schema": 1,
     "generator": "tools/catalog.php",
     "organization": "DevelsCZSkeleton",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "preview": false,
     "packages": [
         {
@@ -23,15 +23,15 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-platform-core.git"
             },
             "latest": {
-                "version": "1.0.0-rc.19",
-                "released": "2026-11-19",
+                "version": "1.0.0-rc.20",
+                "released": "2026-11-24",
                 "requires": {
                     "php": "^8.4",
                     "core": null,
                     "plugins": {},
                     "themes": {}
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-platform-core/blob/v1.0.0-rc.19/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-platform-core/blob/v1.0.0-rc.20/CHANGELOG.md"
             },
             "stable": null
         },
@@ -83,8 +83,8 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-plugin-ads.git"
             },
             "latest": {
-                "version": "1.0.0-rc.3",
-                "released": "2026-11-23",
+                "version": "1.0.0-rc.4",
+                "released": "2026-11-24",
                 "requires": {
                     "php": "^8.4",
                     "core": "^1.0.0-rc.18",
@@ -93,7 +93,7 @@
                     },
                     "themes": {}
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-ads/blob/v1.0.0-rc.3/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-ads/blob/v1.0.0-rc.4/CHANGELOG.md"
             },
             "stable": null
         },
@@ -813,8 +813,8 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-plugin-project-tools.git"
             },
             "latest": {
-                "version": "1.0.0-rc.3",
-                "released": "2026-11-23",
+                "version": "1.0.0-rc.4",
+                "released": "2026-11-24",
                 "requires": {
                     "php": "^8.4",
                     "core": "^1.0.0-rc.18",
@@ -823,7 +823,7 @@
                     },
                     "themes": {}
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-project-tools/blob/v1.0.0-rc.3/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-project-tools/blob/v1.0.0-rc.4/CHANGELOG.md"
             },
             "stable": null
         },
@@ -998,15 +998,15 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-plugin-site-inspection.git"
             },
             "latest": {
-                "version": "1.0.0-rc.1",
-                "released": "2026-11-19",
+                "version": "1.0.0-rc.2",
+                "released": "2026-11-24",
                 "requires": {
                     "php": "^8.4",
-                    "core": "^1.0.0-rc.18",
+                    "core": "^1.0.0-rc.20",
                     "plugins": {},
                     "themes": {}
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-site-inspection/blob/v1.0.0-rc.1/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-site-inspection/blob/v1.0.0-rc.2/CHANGELOG.md"
             },
             "stable": null
         },
@@ -1028,8 +1028,8 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-plugin-site-stats.git"
             },
             "latest": {
-                "version": "1.0.0-rc.3",
-                "released": "2026-11-23",
+                "version": "1.0.0-rc.4",
+                "released": "2026-11-24",
                 "requires": {
                     "php": "^8.4",
                     "core": "^1.0.0-rc.18",
@@ -1038,7 +1038,7 @@
                     },
                     "themes": {}
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-site-stats/blob/v1.0.0-rc.3/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-site-stats/blob/v1.0.0-rc.4/CHANGELOG.md"
             },
             "stable": null
         },
@@ -1150,15 +1150,15 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-plugin-users.git"
             },
             "latest": {
-                "version": "1.0.0-rc.5",
-                "released": "2026-11-19",
+                "version": "1.0.0-rc.6",
+                "released": "2026-11-24",
                 "requires": {
                     "php": "^8.4",
                     "core": "^1.0.0-rc.18",
                     "plugins": {},
                     "themes": {}
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-users/blob/v1.0.0-rc.5/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-users/blob/v1.0.0-rc.6/CHANGELOG.md"
             },
             "stable": null
         },
@@ -1210,19 +1210,19 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-starter-kit.git"
             },
             "latest": {
-                "version": "1.0.0-rc.19",
-                "released": "2026-11-19",
+                "version": "1.0.0-rc.20",
+                "released": "2026-11-24",
                 "requires": {
                     "php": "^8.4",
-                    "core": "^1.0.0-rc.19",
+                    "core": "^1.0.0-rc.20",
                     "plugins": {
-                        "users": "^1.0.0-rc.5"
+                        "users": "^1.0.0-rc.6"
                     },
                     "themes": {
                         "default": "^1.0.0-rc.4"
                     }
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-starter-kit/blob/v1.0.0-rc.19/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-starter-kit/blob/v1.0.0-rc.20/CHANGELOG.md"
             },
             "stable": null
         },
