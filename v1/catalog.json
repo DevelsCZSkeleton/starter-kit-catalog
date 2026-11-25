@@ -2,7 +2,7 @@
     "schema": 1,
     "generator": "tools/catalog.php",
     "organization": "DevelsCZSkeleton",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "preview": false,
     "packages": [
         {
@@ -83,8 +83,8 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-plugin-ads.git"
             },
             "latest": {
-                "version": "1.0.0-rc.4",
-                "released": "2026-11-24",
+                "version": "1.0.0-rc.5",
+                "released": "2026-11-25",
                 "requires": {
                     "php": "^8.4",
                     "core": "^1.0.0-rc.18",
@@ -93,7 +93,7 @@
                     },
                     "themes": {}
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-ads/blob/v1.0.0-rc.4/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-ads/blob/v1.0.0-rc.5/CHANGELOG.md"
             },
             "stable": null
         },
@@ -813,8 +813,8 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-plugin-project-tools.git"
             },
             "latest": {
-                "version": "1.0.0-rc.4",
-                "released": "2026-11-24",
+                "version": "1.0.0-rc.5",
+                "released": "2026-11-25",
                 "requires": {
                     "php": "^8.4",
                     "core": "^1.0.0-rc.18",
@@ -823,7 +823,7 @@
                     },
                     "themes": {}
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-project-tools/blob/v1.0.0-rc.4/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-project-tools/blob/v1.0.0-rc.5/CHANGELOG.md"
             },
             "stable": null
         },
@@ -1028,8 +1028,8 @@
                 "url": "git@github.com:DevelsCZSkeleton/sk-plugin-site-stats.git"
             },
             "latest": {
-                "version": "1.0.0-rc.4",
-                "released": "2026-11-24",
+                "version": "1.0.0-rc.5",
+                "released": "2026-11-25",
                 "requires": {
                     "php": "^8.4",
                     "core": "^1.0.0-rc.18",
@@ -1038,7 +1038,7 @@
                     },
                     "themes": {}
                 },
-                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-site-stats/blob/v1.0.0-rc.4/CHANGELOG.md"
+                "changelog": "https://github.com/DevelsCZSkeleton/sk-plugin-site-stats/blob/v1.0.0-rc.5/CHANGELOG.md"
             },
             "stable": null
         },

@@ -10,7 +10,7 @@ The plugins and themes of the Starter Kit, their newest releases and what each n
 |---|---|---|---|---|
 | Platform Core | `devels/sk-platform-core` | core | `1.0.0-rc.20` | 2026-11-24 |
 | Activity log | `devels/sk-plugin-activity-log` | plugin | `1.0.0-rc.5` | 2026-10-30 |
-| Advertising | `devels/sk-plugin-ads` | plugin | `1.0.0-rc.4` | 2026-11-24 |
+| Advertising | `devels/sk-plugin-ads` | plugin | `1.0.0-rc.5` | 2026-11-25 |
 | AI assistant | `devels/sk-plugin-ai-assistant` | plugin | `1.0.0-rc.1` | 2026-10-30 |
 | AI content | `devels/sk-plugin-ai-content` | plugin | `1.0.0-rc.2` | 2026-10-28 |
 | AI providers | `devels/sk-plugin-ai-providers` | plugin | `1.0.0-rc.3` | 2026-11-19 |
@@ -34,14 +34,14 @@ The plugins and themes of the Starter Kit, their newest releases and what each n
 | Menus | `devels/sk-plugin-navigation` | plugin | `1.0.0-rc.5` | 2026-10-28 |
 | Newsletter | `devels/sk-plugin-newsletter` | plugin | `1.0.0-rc.4` | 2026-10-30 |
 | Pages | `devels/sk-plugin-pages` | plugin | `1.0.0-rc.5` | 2026-10-30 |
-| Project tools | `devels/sk-plugin-project-tools` | plugin | `1.0.0-rc.4` | 2026-11-24 |
+| Project tools | `devels/sk-plugin-project-tools` | plugin | `1.0.0-rc.5` | 2026-11-25 |
 | Redirects | `devels/sk-plugin-redirects` | plugin | `1.0.0-rc.2` | 2026-10-30 |
 | Content blocks | `devels/sk-plugin-rich-content` | plugin | `1.0.0-rc.6` | 2026-10-30 |
 | Search | `devels/sk-plugin-search` | plugin | `1.0.0-rc.3` | 2026-10-30 |
 | SEO | `devels/sk-plugin-seo` | plugin | `1.0.0-rc.5` | 2026-10-30 |
 | Shop | `devels/sk-plugin-shop` | plugin | `1.0.0-rc.8` | 2026-10-30 |
 | Site inspection | `devels/sk-plugin-site-inspection` | plugin | `1.0.0-rc.2` | 2026-11-24 |
-| Site statistics | `devels/sk-plugin-site-stats` | plugin | `1.0.0-rc.4` | 2026-11-24 |
+| Site statistics | `devels/sk-plugin-site-stats` | plugin | `1.0.0-rc.5` | 2026-11-25 |
 | Categories and tags | `devels/sk-plugin-taxonomy` | plugin | `1.0.0-rc.4` | 2026-10-28 |
 | Team | `devels/sk-plugin-team` | plugin | `1.0.0-rc.3` | 2026-10-28 |
 | Testimonials | `devels/sk-plugin-testimonials` | plugin | `1.0.0-rc.3` | 2026-10-28 |
